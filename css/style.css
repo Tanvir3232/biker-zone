@@ -7,12 +7,17 @@
     color: white;
 }
 .header-banner{
-    height: 90vh;
+    height: 100vh;
 }
 .bz-btn{
     background: #E76F51;
 }
+.bz-btn:hover{
+    background: #E76F51;
+}
+footer{
+    height: 100%;
+}
 .footer-bg-color{
     background: #0B0D17;
-    height: 20vh;
 }
