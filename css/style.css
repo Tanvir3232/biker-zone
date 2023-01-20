@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-bg-color{
+    background: #264653;
+    color: white;
+}
+.header-banner{
+    height: 90vh;
+}
+.bz-btn{
+    background: #E76F51;
+}
+.footer-bg-color{
+    background: #0B0D17;
+    height: 20vh;
+}

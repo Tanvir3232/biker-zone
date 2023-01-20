@@ -1,12 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Biker Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bda40edf9e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header class="header-banner header-bg-color">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg header-bg-color">
+                <div class="container-fluid">
+                    <h1 class="display-5 fw-bold">Go Ride</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  fw-semibold">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white ">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white">Contact</a>
+                            </li>
+                        </ul>
+
+                        <button class="btn bz-btn ms-5 text-white" type="submit">Login</button>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 align-items-center">
+                <div class="col">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h3 class="fw-bold display-4">Honda CBR 300R</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                    <button class="btn bz-btn text-white">Purchase</button>
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <!-- feature section  -->
+        <section class="container my-5">
+            <h2 class="fw-bold text-center display-6">Fetured Bikes In This Year</h2>
+            <p class="text-center text-danger">Best bike collection</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-5">
+                <div class="col">
+                    <img class="w-75 img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-100 img-fluid" src="images/bike-4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-75 img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- latest bike section  -->
+        <section class="container my-5 py-5">
+            <h2 class="fw-bold display-6 text-center pb-4">latest News</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button class="btn btn-danger">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button class="btn btn-outline-danger">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button class="btn btn-outline-danger">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- happy clients  -->
+        <section class="container my-5 py-5">
+            <h2 class="text-center fw-bold">Happy Clients says</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card text-center">
+                        <img class="img-fluid mx-auto w-25 mt-3" src="images/user-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year
+                            </p>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-primary my-3">Regina Miles</h4>
+                            <h4>Banker</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img class="img-fluid mx-auto w-25 mt-3" src="images/user-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-primary my-3">Regina Miles</h4>
+                            <h4>Banker</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img class="img-fluid mx-auto w-25 mt-3" src="images/user-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4 class="text-primary my-3">Regina Miles</h4>
+                            <h4>Banker</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- faq section  -->
+        <section class="container my-5 py-5">
+            <h2 class="fw-bold text-center display-6 ">Frequently Asked <span class="text-danger text-opacity-75">
+                    Questions</span></h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-sm-2 align-items-center">
+                <div class="col">
+                    <img class="img-fluid" src="images/faq.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-bg-color">
+            <div class="container text-white">
+                <div class="menus">
+                    <p>
+                        Download Now
+                        <span class="ms-3">License</span>
+                    </p>
+                  
+
+                </div>
+                <div class="links">
+
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <!-- bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
